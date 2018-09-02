@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+use_frameworks!
+
+targetsArray = ['ChartsDemo','ChartsDemo1','ChartsDemo2','ChartsDemo3','ChartsDemo4']
+
+targetsArray.each do |t|
+	target t do
+	pod 'Charts'
+	end
+end
