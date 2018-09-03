@@ -1,13 +1,15 @@
 platform :ios, '8.0'
 use_frameworks!
 
-targetsArray = ['ChartsDemo',
-                'ChartsDemo1',
-                'ChartsDemo2',
-                'ChartsDemo3',
-                'ChartsDemo4',
-                'ChartsDemo5',
-                'ChartsDemo6']
+targetsArray = [
+'ChartsDemo',
+'ChartsDemo1',
+'ChartsDemo2',
+'ChartsDemo3',
+'ChartsDemo4',
+'ChartsDemo5',
+'ChartsDemo6',
+'ChartsDemo7']
 
 targetsArray.each do |t|
 	target t do
