@@ -12,7 +12,8 @@ targetsArray = [
 'ChartsDemo7',
 'ChartsDemo8',
 'ChartsDemo9',
-'ChartsDemo10']
+'ChartsDemo10',
+'ChartsDemo11']
 
 targetsArray.each do |t|
 	target t do
